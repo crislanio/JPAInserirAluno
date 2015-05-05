@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	text-align:center;
+	font-family:Arial;
+}
+h1{
+	text-align:center;
+	font-size:35px;
+	color:white;
+	background:#98f;
+	margin:0;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.button{
+	border-radius:3px;
+	padding:10px 20px;
+	font-size:16px;
+	border:none;
+	background:#12f;
+	margin-bottom: 20px;
+	color:gray;
+	margin-top:20px;
+}
+.button:hover{
+	background:#ff7722;
+}
+.formulario{
+	background:#ddd;
+	color:#666;
+	width:500px;
+	top:100px;
+	padding:20px;
+	position:fixed;
+	z-index:200;
+	left:50%;
+	margin-left:-250px;
+	box-sizing:border-box;
+	text-align:left;
+}
+label{
+	display:block;
+	font-size:14px;
+}
+table{
+	margin:0 auto;
+	width:100%;
+}
+th{
+	background:#333;
+	color:white;
+	padding:10px 0;
+}
+tr td{
+	padding:5px 0;
+}
+tr:nth-child(odd) td{
+	background:#eee;
+}
+
+input[type=text],
+input[type=date],
+input[type=email]{
+	width:100%;
+	font-size:16px;
+	color:#666;
+	border:1px solid #ccc;
+	border-radius:3px;
+	padding:5px 10px;
+	box-sizing:border-box;
+}
+#formInserir{
+	width: 300px;
+	margin: auto;
+} 
